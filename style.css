@@ -1,0 +1,226 @@
+main {
+  max-width: 1200px;
+  height: 100vh;
+  margin: auto;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+/* navbar */
+.navbar {
+  display: flex;
+  background-color: rgb(0, 152, 179);
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 6rem;
+}
+.menu-items {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+}
+ul li a {
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+}
+/* end of navbar */
+
+/* hero section */
+.hero-container {
+  background-image: url(./images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20rem;
+  padding-top: 20rem;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-info h1{
+  font-size: 8rem;
+  color: #0097B2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero-info p{
+  font-size: 3rem;
+  margin-top: 2rem;
+  color: #0097B2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* end of hero section */
+
+/* Featured Consoles */
+.games-flex h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.games-heading {
+  font-size: 6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.span-heading {
+  color: #0097B2;
+}
+
+.games-card {
+  max-width: 300px;
+}
+.games-card img {
+  max-width: 300px;
+}
+
+.pc-info p {
+  color: white;
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.games-section {
+  display: flex;
+}
+
+.games-flex {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+article {
+  background-color: #0097B2;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* end of featured consoles */
+
+/* About page */
+.about-text h1 {
+  font-size: 6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+}
+
+.about-text {
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+  color: grey;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+span {
+  color: #0097B2;
+}
+
+.about-image img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin: 3rem auto 3rem auto;
+}
+/* end of about page */
+
+/* blog */
+.blog-title h1{
+  text-align: center;
+  font-size: 6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.blogs {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.blogs img {
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+  .blog-wrapper {
+    background-color: lightgrey;
+    border-radius: 10px;
+    max-width: 600px;
+  }
+
+  .blog-wrapper img {
+    margin-top: 3rem;
+  }
+
+  .blog-wrapper h2 {
+  text-align: center;
+  color: #0097B2;
+  font-size: 3rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 2rem;
+}
+
+.blog-wrapper p {
+  margin: 2rem;
+  text-align: center;
+  line-height: 1.5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* end of blog */
+
+/* contact us */
+.contact-heading {
+  text-align: center;
+  font-size: 6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.map-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.map-flex p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+/* end of contact us */
+
+/* media queries */
+/* @media screen and (max-width: 400px) {
+  .games-flex {
+    display: flex;
+    flex-direction: column;
+  } */
+
+
+
+
+
+
+
+
